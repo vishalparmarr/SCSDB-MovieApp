@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* primary - #1F1E24 */
+/* secondary - #6556CD */
+
+.link {
+  @apply hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5;
+}
